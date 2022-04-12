@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
     'ingredients'
 ]
 
@@ -78,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'skincare_inci',
         'USER': 'postgres',
-        'PASSWORD': '1234',
+        'PASSWORD': 'damn1234',
         'HOST': 'localhost',
         'PORT': '5432'
     }
